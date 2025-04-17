@@ -133,7 +133,7 @@ export function AgriculturalSubsidyForm() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
-                <span className="bg-primary text-primary-foreground w-6 h-6 rounded-full flex items-center justify-center text-sm">
+                <span className="bg-primary text-foreground w-6 h-6 rounded-full flex items-center justify-center text-sm">
                   1
                 </span>
                 Enter Your Farm Details
@@ -146,6 +146,7 @@ export function AgriculturalSubsidyForm() {
                   className="space-y-8"
                 >
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {/* Basic Information Card */}
                     <div className="space-y-4">
                       <h3 className="font-semibold flex items-center gap-2">
                         <Badge variant="outline" className="py-1">
